@@ -1,0 +1,174 @@
+*{margin:0;padding:0}
+body{
+	background-color:#EEE8AE;
+}
+#wrapper{
+	width:960px;
+	margin:20px auto;
+}
+#header{
+	background-color:#013032;
+	padding:15px;
+	border-bottom:5px solid #6B710E;
+}
+#header h2{
+	color:#01E2E3;
+	font-family: 'CharuChandan3D', sans-serif;
+	font-weight:bold;
+}
+#header p{
+	color:white;
+	font-family: 'CharukolaUltraLight', sans-serif;
+	font-weight:bold;
+}
+
+#nav{
+	background-color:#fff;
+	height:38px;
+	border-bottom:5px solid #6B710E;
+	
+}
+#nav ul{
+	background-color:#fff;
+	list-style-type:none;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid	#6B710E;
+}
+#nav ul li:last-child{
+	border:none
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#7A7F25;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+}
+#nav ul li a:hover{
+	color:#FAB72A;
+	transition:all 0.5s ease;
+}
+
+
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;left:-99999px;
+	background:#fff;
+}
+#nav ul li:hover ul{
+	left:0;
+}
+#nav ul li ul li:first-child{
+	border-top:1px solid #6B710E;
+}
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:2px solid #6B710E;
+	width:125px;
+}
+
+#slider img{
+	width:960px;
+	vertical-align:middle;
+}
+
+#content_wrapper{
+	background-color:#fff;
+	border-top:5px solid #6B710E;
+	padding:10px;
+	overflow:hidden;
+}
+#content{
+	width:650px;
+	margin-right:20px;
+	float:left;
+}
+#content h2{
+	color:#6B710E;
+	font-family:arial;
+	margin-bottom:5px;
+	margin-left:50px;
+	margin-top:10px;
+}
+
+#imgp_wrap img{
+	height:80px;
+	width:75px;
+	margin-right:5px;
+	background:white;
+	border:1px solid #ddd;
+	float:left;
+	
+}
+#imgp_wrap p{width:390px;
+float:left;
+}
+	
+
+
+
+
+}
+#sidebar{
+	float:left;border-right:1px solid black;
+	border-left:1px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	
+	
+}
+#sidebar ul{
+	list-style-type:none
+}
+#sidebar ul li a{
+	text-decoration:none;
+	color:#6B710E;
+	padding:3px;
+	display:block;
+	text-align:left;
+}
+#sidebar h3{
+	color:black;
+	text-align:left;
+}
+#footer{
+	background-color:#635548;
+	padding:10px;
+	text-align:center;
+}
+#footer p{
+	color:#fff;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
